@@ -399,9 +399,14 @@ window-rule {
 
 window-rule {
   match app-id="obsidian"
-  match app-id="Spotify"
+  match app-id="spotify"
   open-maximized true
 
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.95
 }
 
 debug {
