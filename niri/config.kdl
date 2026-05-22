@@ -406,7 +406,7 @@ window-rule {
 
 window-rule {
     match is-active=false
-    opacity 0.95
+    opacity 0.90
 }
 
 debug {
@@ -716,8 +716,8 @@ binds {
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
 
-    XDG_CURRENT_DESKTOP "niri"
-    XDG_SESSION_DESKTOP "niri"
+    XDG_CURRENT_DESKTOP "KDE"
+    XDG_SESSION_DESKTOP "KDE"
 
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt5ct"
@@ -725,7 +725,7 @@ environment {
 
     GDK_BACKEND "wayland"
 
-    MOZ_ENABLE_WAYLAND "1"
+    //MOZ_ENABLE_WAYLAND "0"
 
     _JAVA_AWT_WM_NONREPARENTING "1"
 
